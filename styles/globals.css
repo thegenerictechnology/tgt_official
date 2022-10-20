@@ -1,20 +1,58 @@
+@import 'https://use.fontawesome.com/releases/v5.3.1/css/all.css';
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+/* @media(max-width:440px){
+  body{
+    width: 132vw;
+  }
+}
+@media(max-width:330px){
+  body{
+    width: 176vw;
+  }
+} */
+.pd-0{
+  padding: 0px !important;
+}
+.pd12{
+  padding: 12px;
+}
+.mr8{
+  margin-right: 8px ;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+a{
+  text-decoration: none !important;
 }
+.fclink{
+  line-height: 36px;
+  color: rgba(255, 255, 255,.5) !important;
+}
+.fclink a{
+  font-size: 14px;
+  color: rgba(255, 255, 255,.5) !important;
 
+}
+.ppmain p{
+  color:rgba(255,255,255,.5)!important;
+  position:relative !important ;
+  top:-24px !important;
+  font-size:12px !important;
+}
 * {
   box-sizing: border-box;
 }
-
+.fclink p{
+  margin-top: 40px;
+  color: white !important;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -22,5 +60,74 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+/* .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show,.btn:hover{
+  color: unset !important;
+  background-color: unset !important;
+  border-color: unset !important;
+} */
+body{
+  background: #dfebf5 !important;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+.dropdown:hover .dm0 {display: block !important;}
+.btn-primary{
+  background: #118aef !important;
+}
+.form-control:focus{
+  box-shadow: none !important;
+}
+.sbarm button{
+  margin: auto 4px;
+}
+.sbarm fa{
+  padding: 6px;
+}
+.sb-head-bg, .bgc{
+  background-color: #EBF1F8 !important;
+}
+.dflexr{
+  display: flex;
+}
+.dflexm{
+  display: flex;
+  flex-direction: column;
+}
+.fc1 a{
+  padding: auto 22px;
+  border-radius: 24px;
+}
+.m1{
+  margin:8px !important;
+}
+/* TOP MAX DROPDOWN CSS */
+.fapp{
+  color: rgba(255, 255, 255,.5);
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 8px 0px;
+  padding: 8px;
+}
+.idiv{
+  position: relative;
+  left: -22px;
+}
+@media(min-width:620px){
+  .mfd{
+    display: none;
+  }
+}
+@media(max-width:620px){
+  .maxfd{
+    display: none;
+  }
+  .mic a{
+    font-size: 18px;
+    border-radius: 34px;
+    background: rgb(53,53,53);
+
   }
 }

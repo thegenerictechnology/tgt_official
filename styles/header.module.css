@@ -1,0 +1,47 @@
+.sform{
+    width: 415px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sbtn{
+    border: none;
+    background-color: white;
+    color: blue;
+}
+.sinput{
+    border: none;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+}
+@media(max-width:900px){
+    .logo{
+        width: 124px;
+    }
+    .mnavitems{
+        display: none;
+    }
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+@media(min-width:900px){
+    .minnavbtn{
+        display: none;
+    }
+}
+.minnavbtn{
+    border: none;
+    background: white;
+    color: blue;
+}
+.minnavbtn2{
+    border: none;
+    background: white;
+    color: blue;
+    z-index: 1;
+}
+.mnavitems{
+    padding-top: 14px;
+}
